@@ -1,0 +1,25 @@
+{
+  "name": "marionette.behaviors",
+  "version": "0.0.1",
+  "description": "Collection of behaviors for Marionette",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemieux/marionette.behaviors.git"
+  },
+  "keywords": [
+    "marionette",
+    "marionette.behaviors",
+    "behaviors",
+    "backbone"
+  ],
+  "author": "Marc-Antoine Lemieux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lemieux/marionette.behaviors/issues"
+  },
+  "homepage": "https://github.com/lemieux/marionette.behaviors"
+}
