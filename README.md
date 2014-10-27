@@ -30,3 +30,8 @@ A plugin can be defined using two different ways: a single string or an object. 
 This behavior makes it easier to use [Stickit](https://github.com/NYTimes/backbone.stickit) by handling bindings definition and applying Stickit to the view.
 
 TODO: Complete documentation
+
+##Changelog:
+
+0.0.4 :
+- Renamed BootstrapBehavior to jQueryBehavior since it was generic enough to be used with any jQuery plugin
