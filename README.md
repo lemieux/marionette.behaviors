@@ -27,11 +27,14 @@ A plugin can be defined using two different ways: a single string or an object. 
 
 
 ### Stick it
+**Works on v0.8.0**
+
 This behavior makes it easier to use [Stickit](https://github.com/NYTimes/backbone.stickit) by handling bindings definition and applying Stickit to the view.
 
 TODO: Complete usage documentation
 
 ### BootstrapValidator
+**Works with v0.5.3**
 This behavior allows you to integrate the goodness of [BootstrapValidator](http://bootstrapvalidator.com/) in your views and having client-side validation on your forms.
 
 TODO: Complete usage documentation
