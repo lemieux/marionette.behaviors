@@ -35,14 +35,8 @@ TODO: Complete usage documentation
 
 ### BootstrapValidator
 **Works with v0.5.3**
+
 This behavior allows you to integrate the goodness of [BootstrapValidator](http://bootstrapvalidator.com/) in your views and having client-side validation on your forms.
 
 TODO: Complete usage documentation
 
-##Changelog:
-
-###0.0.5
-- Added bootstrapValidator behavior (thanks @dannytranlx)
-
-###0.0.4
-- Renamed BootstrapBehavior to jQueryBehavior since it was generic enough to be used with any jQuery plugin
