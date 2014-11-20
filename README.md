@@ -1,7 +1,7 @@
 # Marionette Behaviors
 Marionette Behaviors is a collection of useful behaviors for Marionette. It doesn't force you to have all dependencies, but it's your responsibility to have them in your project.
 
-Remember that you need to register the [behaviors before using them](http://marionettejs.com/docs/marionette.behaviors.html).
+Remember that you need to register the [behaviors before using them](http://marionettejs.com/docs/marionette.behaviors.html). Also, it is highly suggested to require the behavior directly instead of the whole lib since it will need all the dependencies that you might not need.
 
 ## Behaviors
 
@@ -29,9 +29,17 @@ A plugin can be defined using two different ways: a single string or an object. 
 ### Stick it
 This behavior makes it easier to use [Stickit](https://github.com/NYTimes/backbone.stickit) by handling bindings definition and applying Stickit to the view.
 
-TODO: Complete documentation
+TODO: Complete usage documentation
+
+### BootstrapValidator
+This behavior allows you to integrate the goodness of [BootstrapValidator](http://bootstrapvalidator.com/) in your views and having client-side validation on your forms.
+
+TODO: Complete usage documentation
 
 ##Changelog:
 
-0.0.4 :
+###0.0.5
+- Added bootstrapValidator behavior (thanks @dannytranlx)
+
+###0.0.4
 - Renamed BootstrapBehavior to jQueryBehavior since it was generic enough to be used with any jQuery plugin
