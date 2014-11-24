@@ -38,5 +38,22 @@ TODO: Complete usage documentation
 
 This behavior allows you to integrate the goodness of [BootstrapValidator](http://bootstrapvalidator.com/) in your views and having client-side validation on your forms.
 
-TODO: Complete usage documentation
+```
+bootstrapValidator: {
+    options: {
+        // ... insert global settings for alls forms ...
+    },
+    targets: [
+        '@ui.form' // uses only defaults settings,
+        {
+            selector: '@ui.form',
+            options: {
+                // ... extra local options ...
+            }
+        },
+        '@' // special case to target the whole view if it's a form
+    ]
+}
+```
 
+The BootstrapValidator behavior integrate the `$(form).bootstrapValidator()` call into your views as a behavior. You can pass [options](http://bootstrapvalidator.com/settings/) into the _global_ `options` object to apply to all the _BootstrapValidator-ed_ forms in your view. The `targets` list can handle [ui hashes](http://marionettejs.com/docs/marionette.view.html#viewbinduielements) or regular jQuery selectors. You may also pass an object with the attribute `selector` to define your target and add specific settings to that form into the `options` attributes. An `@` will target all the forms in the view and apply BootstrapValidator on them.
