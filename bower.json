@@ -1,8 +1,8 @@
 {
     "name": "marionette.behaviors",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "authors": [
-        "Marc-Antoine Lemieux <marc@marcantoinelemieux.com>",
+        "Marc-Antoine Lemieux <marc@marcantoinelemieux.com>"
     ],
     "main": "lib/index.js",
     "license": "MIT"

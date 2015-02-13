@@ -1,6 +1,6 @@
 {
   "name": "marionette.behaviors",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Collection of behaviors for Marionette",
   "main": "index.js",
   "scripts": {
