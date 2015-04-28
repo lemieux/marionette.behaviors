@@ -1,4 +1,6 @@
 #Changelog
+##0.0.11
+- Add FormValidation behavior to support upgrade from BoostrapValidator
 ##0.0.9
 - Bug fix for `patchGetters` where it was not late bound.
 
