@@ -1,4 +1,6 @@
 #Changelog
+##0.0.13
+- Change the binding from `onShow` to `onRender`  for BootstrapValidator and FormValidation behaviors
 ##0.0.12
 - Add FormValidation behavior to support upgrade from BoostrapValidator
 ##0.0.9
